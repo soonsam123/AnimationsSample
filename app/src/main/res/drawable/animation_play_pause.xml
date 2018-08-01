@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This animation runs for just three frames. By setting the android:oneshot to
+ ~   "true", it will cycle just once from the first item to the last one and stop
+ ~   in the last (@drawable/ic_animation3 in this case).
+ ~   For more information on the XML syntax access:
+ ~   https://developer.android.com/guide/topics/resources/animation-resource -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/ic_animation1" android:duration="200" />
+    <item android:drawable="@drawable/ic_animation2" android:duration="200" />
+    <item android:drawable="@drawable/ic_animation3" android:duration="200" />
+</animation-list>

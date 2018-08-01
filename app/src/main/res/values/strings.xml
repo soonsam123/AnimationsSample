@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animations</string>
+    <string name="animate_drawable">Animate Drawable</string>
+    <string name="animate_vector">Animate Vector</string>
+</resources>
