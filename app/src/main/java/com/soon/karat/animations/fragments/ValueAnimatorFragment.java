@@ -1,4 +1,4 @@
-package com.soon.karat.animations;
+package com.soon.karat.animations.fragments;
 
 import android.animation.PropertyValuesHolder;
 import android.animation.TypeEvaluator;
@@ -14,7 +14,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class AnimateValueAnimatorFragment extends Fragment {
+import com.soon.karat.animations.MainActivity;
+import com.soon.karat.animations.R;
+
+public class ValueAnimatorFragment extends Fragment {
 
     private static final String TAG = "AnimateValueAnimatorFra";
 
@@ -36,7 +39,7 @@ public class AnimateValueAnimatorFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_animate_value_animator, container, false);
+        View view = inflater.inflate(R.layout.fragment_value_animator, container, false);
 
         debugTranslation = view.findViewById(R.id.text_debug_translation);
         debugRotation = view.findViewById(R.id.text_debug_rotation);

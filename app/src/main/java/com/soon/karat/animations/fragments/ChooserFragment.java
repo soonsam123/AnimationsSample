@@ -1,4 +1,4 @@
-package com.soon.karat.animations;
+package com.soon.karat.animations.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.soon.karat.animations.MainActivity;
+import com.soon.karat.animations.R;
 
 public class ChooserFragment extends Fragment {
 
@@ -32,8 +35,11 @@ public class ChooserFragment extends Fragment {
 
         listView = view.findViewById(R.id.list_view);
 
-        String[] options = new String[]{"Animate with a drawable",
-                "Animate with a Vector", "Animate using ValueAnimator"};
+        String[] options = new String[]{"Animate with a drawable"
+                , "Animate with a Vector", "Animate using ValueAnimator"
+                , "Animate with ObjectAnimator", "Animate a group with AnimatorSet"
+                , "Animate with StateList", "Animate using KeyFrames"
+                , "Animating a Heart (like button)"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(myContext, android.R.layout.simple_list_item_1, android.R.id.text1, options);
 
@@ -50,7 +56,22 @@ public class ChooserFragment extends Fragment {
                         makeTransactionToAnotherFragment(new AnimateVectorFragment());
                         break;
                     case 2:
-                        makeTransactionToAnotherFragment(new AnimateValueAnimatorFragment());
+                        makeTransactionToAnotherFragment(new ValueAnimatorFragment());
+                        break;
+                    case 3:
+                        makeTransactionToAnotherFragment(new ObjectAnimatorFragment());
+                        break;
+                    case 4:
+                        makeTransactionToAnotherFragment(new AnimatorSetFragment());
+                        break;
+                    case 5:
+                        makeTransactionToAnotherFragment(new StateListFragment());
+                        break;
+                    case 6:
+                        makeTransactionToAnotherFragment(new KeyFramesFragment());
+                        break;
+                    case 7:
+                        makeTransactionToAnotherFragment(new LikeAnimationFragment());
                         break;
                 }
             }

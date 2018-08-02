@@ -1,4 +1,4 @@
-package com.soon.karat.animations;
+package com.soon.karat.animations.fragments;
 
 import android.graphics.drawable.AnimatedVectorDrawable;
 import android.graphics.drawable.Drawable;
@@ -13,6 +13,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+
+import com.soon.karat.animations.R;
 
 public class AnimateVectorFragment extends Fragment {
 
