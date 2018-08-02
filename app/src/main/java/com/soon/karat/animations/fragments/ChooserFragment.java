@@ -39,7 +39,7 @@ public class ChooserFragment extends Fragment {
                 , "Animate with a Vector", "Animate using ValueAnimator"
                 , "Animate with ObjectAnimator", "Animate a group with AnimatorSet"
                 , "Animate with StateList", "Animate using KeyFrames"
-                , "Animating a Heart (like button)"};
+                , "Animating a Heart (like button)", "Crossfade animation"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(myContext, android.R.layout.simple_list_item_1, android.R.id.text1, options);
 
@@ -72,6 +72,9 @@ public class ChooserFragment extends Fragment {
                         break;
                     case 7:
                         makeTransactionToAnotherFragment(new LikeAnimationFragment());
+                        break;
+                    case 8:
+                        makeTransactionToAnotherFragment(new CrossfadeFragment());
                         break;
                 }
             }

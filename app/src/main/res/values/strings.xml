@@ -2,4 +2,10 @@
     <string name="app_name">Animations</string>
     <string name="animate_drawable">Animate Drawable</string>
     <string name="animate_vector">Animate Vector</string>
+
+    <string name="lorem_ipsum"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur eget sapien eget vestibulum. Sed porta nunc nec eros congue vehicula. Praesent eget facilisis lorem. Aliquam pharetra volutpat rutrum. Vestibulum felis nibh, semper eu nisi vel, bibendum pulvinar dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce scelerisque facilisis odio, eget hendrerit sem convallis ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam varius nunc ut nulla blandit eleifend. Proin ac maximus nisl, a fringilla mauris. Duis ultricies vulputate magna, eget faucibus turpis accumsan facilisis.
+
+Pellentesque urna nunc, vehicula id gravida ac, consectetur vitae enim. Praesent pretium consequat urna, in suscipit diam mollis quis. Maecenas sollicitudin egestas dictum. Nunc viverra bibendum arcu vel fermentum. Aliquam laoreet iaculis ante eget eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis turpis erat, ac sollicitudin ex aliquet in.
+
+Mauris convallis sapien non accumsan accumsan. Praesent ante mauris, tristique tincidunt arcu at, accumsan congue mi. Aliquam erat volutpat. Cras a leo vel dolor lacinia fringilla ac ac massa. Etiam pretium ex eget consequat aliquet. Praesent pellentesque eget dui eu fringilla. Integer accumsan, risus eu venenatis dignissim, diam nibh iaculis nisl, eu feugiat eros sem nec dolor. Maecenas sit amet facilisis tortor. Phasellus quis scelerisque lectus, sed rutrum mi. Integer scelerisque, tellus sed fermentum molestie, orci magna facilisis nisl, nec porta diam tellus et est. Nulla facilisi. Quisque vel sapien tincidunt nunc tincidunt venenatis eget et orci. Vestibulum lobortis vitae turpis sit amet venenatis. Sed ac tristique metus. Etiam egestas cursus venenatis. Maecenas et cursus ipsum, at dictum est. </string>
 </resources>
